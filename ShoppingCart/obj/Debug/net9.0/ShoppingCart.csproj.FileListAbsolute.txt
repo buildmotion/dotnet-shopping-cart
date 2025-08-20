@@ -16,3 +16,4 @@
 /Users/buildmotion/work/github/dotnet/ShoppingCart/obj/Debug/net9.0/ShoppingCart.pdb
 /Users/buildmotion/work/github/dotnet/ShoppingCart/obj/Debug/net9.0/ShoppingCart.genruntimeconfig.cache
 /Users/buildmotion/work/github/dotnet/ShoppingCart/obj/Debug/net9.0/ref/ShoppingCart.dll
+/Users/buildmotion/work/github/dotnet/ShoppingCart/obj/Debug/net9.0/ShoppingCart.sourcelink.json

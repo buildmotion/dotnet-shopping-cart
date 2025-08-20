@@ -104,3 +104,4 @@
 /Users/buildmotion/work/github/dotnet/ShoppingCart.Tests/obj/Debug/net9.0/ShoppingCart.Tests.pdb
 /Users/buildmotion/work/github/dotnet/ShoppingCart.Tests/obj/Debug/net9.0/ShoppingCart.Tests.genruntimeconfig.cache
 /Users/buildmotion/work/github/dotnet/ShoppingCart.Tests/obj/Debug/net9.0/ref/ShoppingCart.Tests.dll
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Tests/obj/Debug/net9.0/ShoppingCart.Tests.sourcelink.json

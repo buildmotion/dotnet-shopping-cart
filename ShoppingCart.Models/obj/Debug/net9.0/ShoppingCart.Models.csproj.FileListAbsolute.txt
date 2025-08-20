@@ -9,3 +9,4 @@
 /Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/refint/ShoppingCart.Models.dll
 /Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.pdb
 /Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ref/ShoppingCart.Models.dll
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.sourcelink.json

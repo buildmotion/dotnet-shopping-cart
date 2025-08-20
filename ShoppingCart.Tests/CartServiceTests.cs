@@ -10,7 +10,8 @@ namespace ShoppingCart.Tests
         [Fact]
         public void AddItem_ShouldAddNewItemToCart()
         {
-            var cart = new Cart();
+            var customer = new Customer(1, "Joe", "joe@email.com");
+            var cart = new Cart { CustomerId = customer.Id };
             var product = new Product { Id = 1, Name = "Apple", Price = 0.5m };
             var service = new CartService();
 
@@ -22,9 +23,20 @@ namespace ShoppingCart.Tests
         }
 
         [Fact]
+        public void AddItem_ShouldValidateQuantity()
+        {
+            var customer = new Customer(1, "Joe", "joe@email.com");
+            var cart = new Cart { CustomerId = customer.Id };
+            var product = new Product { Id = 1, Name = "Apple", Price = 0.5m };
+            var service = new CartService();
+
+            Assert.Throws<ArgumentOutOfRangeException>(() => service.AddItem(cart, product, 0));
+        }
+
+        [Fact]
         public void RemoveItem_ShouldRemoveItemFromCart()
         {
-            var cart = new Cart { Items = new List<CartItem> { new CartItem { ProductId = 1, Quantity = 2 } } };
+            var cart = new Cart { CustomerId = 1, Items = new List<CartItem> { new CartItem { ProductId = 1, Quantity = 2 } } };
             var service = new CartService();
 
             service.RemoveItem(cart, 1);
@@ -35,7 +47,7 @@ namespace ShoppingCart.Tests
         [Fact]
         public void GetTotal_ShouldReturnCorrectTotal()
         {
-            var cart = new Cart { Items = new List<CartItem> { new CartItem { ProductId = 1, Quantity = 2 }, new CartItem { ProductId = 2, Quantity = 1 } } };
+            var cart = new Cart { CustomerId = 1, Items = new List<CartItem> { new CartItem { ProductId = 1, Quantity = 2 }, new CartItem { ProductId = 2, Quantity = 1 } } };
             var products = new List<Product> { new Product { Id = 1, Price = 0.5m }, new Product { Id = 2, Price = 1.0m } };
             var service = new CartService();
 
