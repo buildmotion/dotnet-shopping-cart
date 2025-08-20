@@ -1,0 +1,11 @@
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/bin/Debug/net9.0/ShoppingCart.Models.deps.json
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/bin/Debug/net9.0/ShoppingCart.Models.dll
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/bin/Debug/net9.0/ShoppingCart.Models.pdb
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.AssemblyInfoInputs.cache
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.AssemblyInfo.cs
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.csproj.CoreCompileInputs.cache
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.dll
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/refint/ShoppingCart.Models.dll
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ShoppingCart.Models.pdb
+/Users/buildmotion/work/github/dotnet/ShoppingCart.Models/obj/Debug/net9.0/ref/ShoppingCart.Models.dll
